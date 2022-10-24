@@ -1,0 +1,24 @@
+type Mutation {
+  #For user Auth
+  signUp(userInput: UserInput!): SignUpResponse!
+  login(username: String!, password: String!): LoginResponse!
+  logout: LogoutResponse!
+  activateDriver(
+    username: String!
+    deactivate: Boolean!
+  ): ActivateDriverResponse!
+
+  #For User TRIP
+  """
+  createTripByCustomer and cancelTripByCustomer for customer Role
+  acceptTripByDriver and finishTripByCustom for driver role
+  """
+  createTripByCustomer(trip: TripInput!): CreateTripResponse!
+  cancelTripByCustomer(tripId: ID!): CancelTripResponse!
+
+  acceptTripByDriver(tripId: ID!): AcceptTripResponse!
+  finishTripByDriver(tripId: ID!): AcceptTripResponse!
+
+  #Chat app
+  joinChatRoom(tripId: ID!): JoinChatRoomReponse!
+}

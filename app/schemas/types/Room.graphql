@@ -1,0 +1,11 @@
+type Room {
+  id: ID!
+  users: [User!]!
+  trip: Trip!
+  messages: [Message!]
+}
+type Message {
+  user: User!
+  message: String!
+  createAt: String!
+}

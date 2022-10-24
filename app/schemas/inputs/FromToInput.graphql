@@ -1,0 +1,4 @@
+input FromToInput {
+  from: String!
+  to: String
+}

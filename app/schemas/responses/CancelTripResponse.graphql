@@ -1,0 +1,5 @@
+type CancelTripResponse {
+  isSuccess: String!
+  message: String!
+  trip: Trip
+}

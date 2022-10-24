@@ -1,0 +1,5 @@
+input UserFilterInput {
+  name: String
+  phone: String
+  username: String
+}

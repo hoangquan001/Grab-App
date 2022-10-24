@@ -1,0 +1,14 @@
+type Query {
+  me: User
+  # users: for admin role
+  users(filters: UserFilterInput, limit: Int = 10, cursor: ID): [User!]
+
+  #myTrips: for 1 specifical customer or driver
+  myTrips(limit: Int = 10, cursor: ID): [Trip!]
+
+  #get all trip under condition by admin
+  listTrips(filters: TripFilterInput, limit: Int = 10, cursor: ID): [Trip!]
+
+  #Chat app
+  myRooms: [Room!]
+}

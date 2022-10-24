@@ -1,0 +1,6 @@
+enum TripStatus {
+  Driving
+  Cancelled
+  Finished
+  Waiting
+}

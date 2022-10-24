@@ -1,0 +1,11 @@
+type Trip {
+  id: ID!
+  customer: User!
+  driver: User
+  startDate: String!
+  endDate: String
+  departurePlace: String!
+  destination: String!
+  fare: Int
+  status: TripStatus!
+}

@@ -1,0 +1,5 @@
+type JoinChatRoomReponse {
+  isSuccess: String!
+  message: String!
+  room: Room
+}
