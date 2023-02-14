@@ -1,9 +1,6 @@
 # Dịch vụ back-end cung cấp API sử dụng GraphQL cho ứng dụng xe công nghệ
 
 
-
-# Ghi chú khóa học
-
 # Nội dung
 
 - [Schema](#schema)
