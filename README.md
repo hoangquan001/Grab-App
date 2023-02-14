@@ -1,5 +1,8 @@
+# Dịch vụ back-end cung cấp API sử dụng GraphQL cho ứng dụng xe công nghệ
 
-# GHI CHÚ VỀ KHÓA HỌC GRAPHQL APOLLO 2022
+
+
+# Ghi chú khóa học
 
 # Nội dung
 
